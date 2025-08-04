@@ -12,9 +12,7 @@ public:
                   return false; // Overlapping intervals found
                }
                }
-            
-        }
-        
         // No overlaps found
         return true;
-    };
+    }
+};
